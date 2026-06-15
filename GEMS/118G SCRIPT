@@ -5,13 +5,13 @@ getgenv().Nixus = {
     Modifiers = {},
     AutoAbilities = false,
     AutoRewards = true,
-    macroURL = "https://raw.githubusercontent.com/Tino090-1/TDSMACROSS/refs/heads/main/GEMS/77G",
+    macroURL = "https://raw.githubusercontent.com/Tino090-1/TDSMACROSS/refs/heads/main/GEMS/118G",
     Webhook = "",
     replay = true,
     Gamemode = "Hardcore",
     Map = "Wretched Front",
     Difficulty = "Easy",
-    Loadout = {"Pyromancer", "Soldier"}
+    Loadout = {"Farm", "Mercenary Base", "Gatling Gun"}
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
 --AutoGatling Gun
