@@ -1,0 +1,16 @@
+getgenv().Nixus = {
+    autoskip = true,
+    SellAllTower = false,
+    AtWave = 50,
+    Modifiers = {},
+    AutoAbilities = false,
+    AutoRewards = true,
+    macroURL = "https://raw.githubusercontent.com/Tino090-1/TDSMACROSS/refs/heads/main/GEMS/77G",
+    Webhook = "",
+    replay = true,
+    Gamemode = "Hardcore",
+    Map = "Wretched Front",
+    Difficulty = "Easy",
+    Loadout = {"Pyromancer", "Shotgunner"}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
