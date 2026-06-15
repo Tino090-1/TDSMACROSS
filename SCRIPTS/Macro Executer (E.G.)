@@ -1,0 +1,16 @@
+getgenv().Nixus = {
+    autoskip = false,
+    SellAllTower = false,
+    AtWave = 50,
+    Modifiers = {},
+    AutoAbilities = false,
+    AutoRewards = false,
+    macroURL = "https://raw.githubusercontent.com/Tino090-1/TDSMACROSS/refs/heads/main/GEMS/V1(745H)/HardCoreGemFarmV1%20(745H)",
+    Webhook = "",
+    replay = false,
+    Gamemode = "Fallen",
+    Map = "",
+    Difficulty = "Fallen",
+    Loadout = {"", "", "", "", ""}
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
