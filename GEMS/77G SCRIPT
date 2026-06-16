@@ -14,4 +14,3 @@ getgenv().Nixus = {
     Loadout = {"Pyromancer", "Soldier"}
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
