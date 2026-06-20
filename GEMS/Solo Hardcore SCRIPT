@@ -15,13 +15,14 @@ getgenv().Nixus = {
 } 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
 
+-- This additional script is required for the Auto-Gatling Gun; without it, the macro won't work.
+loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
+
 -- =====================================================================================
 --You need the "Fortify" skill maxed, "Over-Heal" at lvl 10, and "Bandages" at lvl 10.
 --You can use time skip tickets, but be careful with any potential issues.
 --!!! Loadout requires the Golden Minigunner
 --!!! Auto-Skip must be OFF. Otherwise, the macro will fail.
 -- !!!!!!!!!!!  At the final wave you must replace and move all the tower permanently stunned or out of range, otherwise, you will lose...
+-- !!!!!!!!!!! Throughout the match, you must keep the Auto-Gatling's auto-fire ENABLED, set to "First", and limited to 2 max targets. At the final wave, change it to "First" but with only 1 target.
 --=======================================================================================
-
--- This additional script is required for the Auto-Gatling Gun; without it, the macro won't work.
-loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
