@@ -20,6 +20,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output
 --You can use time skip tickets, but be careful with any potential issues.
 --!!! Loadout requires the Golden Minigunner
 --!!! Auto-Skip must be OFF. Otherwise, the macro will fail.
+-- !!!!!!!!!!!  At the final wave you must replace and move all the tower permanently stunned or out of range, otherwise, you will lose...
 --=======================================================================================
 
 -- This additional script is required for the Auto-Gatling Gun; without it, the macro won't work.
