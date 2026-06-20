@@ -1,0 +1,26 @@
+getgenv().Nixus = {
+    autoskip = false,
+    SellAllTower = false,
+    AtWave = 55,
+    Modifiers = {},
+    AutoAbilities = false,
+    AutoRewards = true,
+    macroURL = "https://raw.githubusercontent.com/Tino090-1/TDSMACROSS/refs/heads/main/GEMS/SOLO%20HARDCORE",
+    Webhook = "",
+    replay = false,
+    Gamemode = "Hardcore",
+    Map = "Wretched Front",
+    Difficulty = "Easy",
+    Loadout = {"Farm", "Gatling Gun", "Turret", "Trapper", "Minigunner"}
+} 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2xrW/returnhub-output/refs/heads/main/TDS"))()
+
+-- =====================================================================================
+--You need the "Fortify" skill maxed, "Over-Heal" at lvl 10, and "Bandages" at lvl 10.
+--You can use time skip tickets, but be careful with any potential issues.
+--!!! Loadout requires the Golden Minigunner
+--!!! Auto-Skip must be OFF. Otherwise, the macro will fail.
+--=======================================================================================
+
+-- This additional script is required for the Auto-Gatling Gun; without it, the macro won't work.
+loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
